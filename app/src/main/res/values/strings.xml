@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Handouts</string>
+    <string name="select">Choose the user type</string>
+    <string-array name="array">
+        <item>Student</item>
+        <item>Admin</item>
+    </string-array>
+</resources>

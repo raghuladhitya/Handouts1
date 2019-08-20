@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.handouts.PhoneActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="-7dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginRight="-4dp"
+        android:layout_marginBottom="7dp"
+        android:background="#ffffff">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="251dp"
+            android:layout_height="36dp"
+            android:layout_alignStart="@+id/btnlogin2"
+            android:layout_alignEnd="@+id/btnlogin2"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="174dp"
+            android:layout_marginEnd="24dp"
+            android:background="#11000000"
+            android:ems="10"
+            android:hint="Enter OTP"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="16dp" />
+
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/btnlogin"
+            android:text="SEND OTP"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnlogin2"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btnlogin"
+            android:layout_alignStart="@+id/btnlogin"
+            android:layout_alignEnd="@+id/btnlogin"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="78dp"
+            android:layout_marginEnd="2dp"
+            android:background="@drawable/btnlogin"
+            android:text="VERIFY AND REGISTER"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+</RelativeLayout>
